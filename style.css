@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2? family= Justo & display=swap'); @import url('https://fonts.googleapis.com/css2? family= Justo &família = Sarala & display=swap');
+/* É importante resetar o css com o * pois a página normalmente já vem pré configurado */
+
+* {
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(70.15deg, #2b1c1e 16.62%, #725b56 85.61%);
+}
+
+.cbp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cbpimg{
+    height: 72px;
+}
+.cbpmenu{
+    
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item{
+    font-family: 'Sarala', sans-serif;
+    color:aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.ctd{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+    padding-top: 24px;
+}
+
+.ctdp{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ctd-div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+h1{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+h2{
+    font-family: 'Sarala', sans-serif;
+    color:aliceblue;
+    font-weight: 400;
+    font-size: 24px;  
+}
+button{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    color:rgb(2, 18, 32);
+    font-weight: 400;
+    font-size: 18px; 
+}
+button:hover{
+    background-color: rgb(73, 48, 15);
+}
+
+.ctdp-img{
+    height: 300px;
+}
+
+.ctds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 60px;
+}
+
+h3{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    color:#ECD6C4;
+    font-weight: 400;
+    font-size: 24px; 
+    margin-bottom: 16px;
+}
+p{
+    font-family: 'Sarala', sans-serif;
+    color:#ECD6C4;
+    font-weight: 300;
+    font-size: 16px; 
+}
+
+footer{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+
+}
+.rodape{
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+nav a:hover{
+    background-color: rgb(64, 97, 14);
+}
